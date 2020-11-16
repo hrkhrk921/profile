@@ -38,10 +38,10 @@ h2{
 }
 .list_name{
     font-size: 25px;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 .list_content{
-    padding: 10px 0;
+    padding: 8px 20px;
     font-size: 18px;
 }
 .profile{
