@@ -33,9 +33,12 @@ h2{
     font-size: 30px;
     font-weight: normal;
 }
-.list-name{
+.prof_list{
+    list-style: none;
+}
+.list_name{
     font-size: 25px;
 }
-.list-content{
+.list_content{
     font-size: 18px;
 }
