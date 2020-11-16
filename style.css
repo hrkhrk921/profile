@@ -25,3 +25,11 @@
 .main{
     padding: 50px 100px ;
 }
+h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+h2{
+    font-size: 30px;
+    font-weight: normal;
+}
