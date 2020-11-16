@@ -38,7 +38,14 @@ h2{
 }
 .list_name{
     font-size: 25px;
+    padding: 10px 0;
 }
 .list_content{
+    padding: 10px 0;
     font-size: 18px;
+}
+.profile{
+    width: 80%;
+    padding: 30px 100px;
+    height: 800px;
 }
