@@ -58,5 +58,17 @@ h2{
     margin: 0 auto;
 }
 .contact{
+    padding: 50px 100px;
+}
+.contact-box{
+    width: 80%;
     padding: 30px 100px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+textarea{
+    width: 400px;
+    height: 200px;
 }
