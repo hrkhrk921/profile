@@ -22,7 +22,7 @@
     list-style: none;
 }
 .header-right li{
-    float: left;
+    display: inline-block;
     padding: 10px 20px;
 }
 .header-right a{
@@ -45,6 +45,7 @@ h2{
 }
 .prof_list{
     list-style: none;
+    display: inline-block;
 }
 .list_name{
     font-size: 25px;
@@ -79,9 +80,40 @@ textarea{
     height: 200px;
 }
 img{
-    width: 405px;
-    height: 270px;
+    width: 45%;
+    height: 45%;
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 5%;
+    top: 5%;
+    display: inline-block;
+}
+@media screen and (min-width: 700px) and (max-width: 999px) {
+    img{
+        width: 60%;
+        height: 250px;
+        top: 30px;
+        right: 20%;
+    }
+    .profile{
+        margin: 0 auto;
+        height: 800px;
+    }
+    .prof_list{
+        padding-top: 250px;
+    }
+}
+
+@media screen and (max-width: 699px) { 
+    img{
+        width: 80%;
+        height: 162px;
+        top:5%;
+        right: 10%;
+    }
+    .profile{
+        height: 1000px;
+    }
+    .prof_list{
+        padding-top: 300px;
+    }
 }
