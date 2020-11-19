@@ -101,6 +101,12 @@ img{
     .prof_list{
         padding-top: 250px;
     }
+    #contact{
+        padding: 10% 20%;
+    }
+    .content-box{
+        padding: 10% 20%;
+    }
 }
 
 @media screen and (max-width: 699px) { 
@@ -116,4 +122,7 @@ img{
     .prof_list{
         padding-top: 300px;
     }
+}
+.top{
+    text-align: center;
 }
