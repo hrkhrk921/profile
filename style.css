@@ -14,9 +14,11 @@
 }
 .header-left{
     float: left;
+    display: inline-block;
 }
 .header-right{
     float: right;
+    display:inline-block;
 }
 .header-right ul{
     list-style: none;
@@ -125,4 +127,14 @@ img{
 }
 .top{
     text-align: center;
+}
+.push{
+    width:200px;
+    height: 30px;
+    background-color: cadetblue;
+    color: white;
+    opacity: 0.6;
+}
+.push:hover{
+    opacity: 0.8;
 }
