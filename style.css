@@ -70,7 +70,6 @@ h2{
     padding: 30px 100px;
 }
 .contact-box{
-    width: 80%;
     padding: 30px 100px;
 }
 input{
@@ -92,7 +91,7 @@ img{
     img{
         width: 60%;
         height: 250px;
-        top: 30px;
+        top: 10%;
         right: 20%;
     }
     .profile{
@@ -114,14 +113,14 @@ img{
     img{
         width: 80%;
         height: 162px;
-        top:5%;
+        top:15%;
         right: 10%;
     }
     .profile{
         height: 1000px;
     }
     .prof_list{
-        padding-top: 300px;
+        padding-top: 200px;
     }
 }
 .top{
