@@ -47,6 +47,9 @@ h2{
     list-style: none;
     display: inline-block;
 }
+.prof_img{
+    display: inline-block;
+}
 .list_name{
     font-size: 25px;
     padding: 8px 0;
@@ -57,7 +60,6 @@ h2{
 }
 .profile{
     border: 1px solid #faabca;
-    width: 80%;
     padding: 30px 100px;
     height: 500px;
     margin: 0 auto;
@@ -65,7 +67,7 @@ h2{
     z-index: 10;
 }
 #contact{
-    padding: 50px 100px;
+    padding: 30px 100px;
 }
 .contact-box{
     width: 80%;
@@ -81,11 +83,10 @@ textarea{
 }
 img{
     width: 45%;
-    height: 45%;
+    height: 60%;
     position: absolute;
     right: 5%;
     top: 5%;
-    display: inline-block;
 }
 @media screen and (min-width: 700px) and (max-width: 999px) {
     img{
