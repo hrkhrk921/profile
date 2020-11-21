@@ -48,6 +48,7 @@ h2{
     display: inline-block;
 }
 .prof_img{
+    width: 100%;
     display: inline-block;
 }
 .list_name{
@@ -82,24 +83,21 @@ textarea{
 }
 img{
     width: 45%;
-    height: 60%;
+    height: auto;
     position: absolute;
     right: 5%;
     top: 5%;
 }
 @media screen and (min-width: 700px) and (max-width: 999px) {
     img{
-        width: 60%;
-        height: 250px;
+        width: 55%;
+        height: auto;
         top: 10%;
         right: 20%;
     }
     .profile{
         margin: 0 auto;
         height: 800px;
-    }
-    .prof_list{
-        padding-top: 250px;
     }
     #contact{
         padding: 10% 20%;
@@ -112,15 +110,12 @@ img{
 @media screen and (max-width: 699px) { 
     img{
         width: 80%;
-        height: 162px;
+        height: auto;
         top:15%;
         right: 10%;
     }
     .profile{
         height: 1000px;
-    }
-    .prof_list{
-        padding-top: 200px;
     }
 }
 .top{
