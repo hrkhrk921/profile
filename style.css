@@ -62,7 +62,6 @@ h2{
 .profile{
     border: 1px solid #faabca;
     padding: 30px 100px;
-    height: 500px;
     margin: 0 auto;
     position: relative;
     z-index: 10;
@@ -99,6 +98,9 @@ img{
         margin: 0 auto;
         height: 800px;
     }
+    .prof_list{
+        margin-top: 200px;
+    }
     #contact{
         padding: 10% 20%;
     }
@@ -114,8 +116,9 @@ img{
         top:15%;
         right: 10%;
     }
-    .profile{
-        height: 1000px;
+    .prof_list{
+        margin-top: 260px;
+        padding-top: 50px;
     }
 }
 .top{
