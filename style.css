@@ -47,6 +47,9 @@ h2{
     list-style: none;
     display: inline-block;
 }
+span{
+    color: green;
+}
 .prof_img{
     width: 100%;
     display: inline-block;
@@ -58,6 +61,13 @@ h2{
 .list_content{
     padding: 8px 20px;
     font-size: 18px;
+}
+.btn-PF{
+    background-color: grey;
+    padding: 3px;
+    border-radius: 5px;
+    opacity: 0.5;
+    color:white;
 }
 .profile{
     border: 1px solid #faabca;
