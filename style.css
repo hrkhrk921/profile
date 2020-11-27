@@ -101,7 +101,7 @@ img{
     right: 5%;
     top: 5%;
 }
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 671px) and (max-width: 999px) {
     img{
         width: 55%;
         height: auto;
@@ -120,7 +120,7 @@ img{
     }
 }
 
-@media screen and (max-width: 699px) { 
+@media screen and (max-width: 670px) { 
     img{
         width: 80%;
         height: auto;
