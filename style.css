@@ -15,15 +15,18 @@
     display: inline-block;
 }
 .header-right{
+    list-style: none;
     position: relative;
     left: 5%;
 }
+.header-right nav{
+    display: inline-block;
+}
 .header-right ul{
-    list-style: none;
+    display: inline-block;
 }
 .header-right li{
     display: inline-block;
-    padding: 10px 20px;
 }
 .header-right a{
     color: black;
