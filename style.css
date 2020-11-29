@@ -27,6 +27,7 @@
 }
 .header-right li{
     display: inline-block;
+    margin-right: 15px;
 }
 .header-right a{
     color: black;
