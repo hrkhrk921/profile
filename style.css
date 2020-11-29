@@ -70,6 +70,9 @@ h2{
     color:white;
     box-shadow: 0 3px black ;
 }
+.btn-PF:hover{
+    color: pink;
+}
 .btn-PF:active{
     box-shadow: none;
     position: relative;
