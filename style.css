@@ -52,14 +52,13 @@ h2{
 }
 .prof_img{
     width: 100%;
-    display: inline-block;
 }
 .list_name{
     font-size: 25px;
     padding: 8px 0;
 }
 .list_content{
-    padding: 8px 20px;
+    padding: 4% 6%;
     font-size: 18px;
 }
 .btn-PF{
@@ -113,45 +112,40 @@ img{
         top: 0;
         z-index: 100;
     }
-    .header-left,.header-right{
-        display: inline-block;
-    }
     img{
-        width: 55%;
+        width: 50%;
         height: auto;
-        top: 10%;
-        right: 20%;
+        margin: 0 auto;
+    }
+    .main{
+        padding: 5% 5%;
+        margin-top: 100px;
+    }
+    .prof_list{
+        margin-top: 25%;
     }
     .profile{
         margin: 0 auto;
         height: 800px;
     }
-    .prof_list{
-        margin-top: 200px;
-    }
-    .list-name{
-        display: inline-block;
-    }
-    .list_content{
-        display: inline-block;
-    }
+
     #contact{
         padding-top: 10%;
     }
 }
 
-@media screen and (max-width: 670px) { 
-    .header-left,.header-right{
-        display: inline-block;
+@media screen and (max-width: 670px) {
+    .main{
+        padding: 5% 5%;
+        margin-top: 100px;
     }
     img{
-        width: 80%;
+        width: 60%;
         height: auto;
-        top:15%;
-        right: 10%;
+        margin: 0 auto;
     }
     .prof_list{
-        margin-top: 260px;
+        margin-top: 40%;
         padding-top: 50px;
     }
     #contact{
