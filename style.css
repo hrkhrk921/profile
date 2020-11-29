@@ -3,6 +3,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header{
     width: 100%;
     padding: 2% 5%;
@@ -11,28 +16,20 @@
     top: 0;
     z-index: 100;
 }
-.header-left,.header-right{
-    display: inline-block;
-}
-.header-right{
+.header ul{
     list-style: none;
-    position: relative;
-    left: 5%;
 }
-.header-right nav{
-    display: inline-block;
+.header h1{
+    display: block;
 }
-.header-right ul{
-    display: inline-block;
+.header nav{
+    display: flex;
 }
-.header-right li{
-    display: inline-block;
+.header a{
+    color: black;
     margin-right: 15px;
 }
-.header-right a{
-    color: black;
-}
-.header-right a:hover{
+.header a:hover{
     color: pink;
 }
 .main{
