@@ -33,7 +33,7 @@
     color: pink;
 }
 .main{
-    padding: 50px 100px;
+    padding: 10% 10%;
     margin-top: 100px;
 }
 h1{
@@ -63,8 +63,8 @@ h2{
 }
 .btn-PF{
     background-color: grey;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 1%;
+    border-radius: 3px;
     opacity: 0.5;
     color:white;
     box-shadow: 0 3px black ;
@@ -126,7 +126,7 @@ img{
     }
     .profile{
         margin: 0 auto;
-        height: 800px;
+        
     }
 
     #contact{
