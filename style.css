@@ -119,11 +119,11 @@ img{
         margin-top: 100px;
     }
     .prof_list{
-        margin-top: 25%;
+        flex-direction: column;
     }
     .profile{
         margin: 0 auto;
-        
+        flex-direction: column;
     }
 
     #contact{
@@ -145,8 +145,7 @@ img{
         margin: 0 auto;
     }
     .prof_list{
-        margin-top: 40%;
-        padding-top: 50px;
+        flex-direction: column;
     }
     #contact{
         width: 90%;
