@@ -46,6 +46,7 @@ h2{
 }
 .prof_list{
     list-style: none;
+    width: 100%;
 }
 .prof_list span{
     color: green;
@@ -96,11 +97,8 @@ textarea{
     height: 200px;
 }
 img{
-    width: 45%;
+    width: 100%;
     height: auto;
-    position: absolute;
-    right: 5%;
-    top: 5%;
 }
 @media screen and (min-width: 671px) and (max-width: 999px) {
     .header{
@@ -112,7 +110,7 @@ img{
         z-index: 100;
     }
     img{
-        width: 50%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -134,12 +132,15 @@ img{
 }
 
 @media screen and (max-width: 670px) {
+    .profile{
+        flex-direction: column;
+    }
     .main{
         padding: 5% 5%;
         margin-top: 100px;
     }
     img{
-        width: 60%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
