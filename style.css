@@ -33,7 +33,7 @@
     color: pink;
 }
 .main{
-    padding: 10% 10%;
+    padding: 7% 7%;
     margin-top: 100px;
 }
 h1{
@@ -115,15 +115,10 @@ img{
         margin: 0 auto;
     }
     .main{
-        padding: 5% 5%;
         margin-top: 100px;
-    }
-    .prof_list{
-        flex-direction: column;
     }
     .profile{
         margin: 0 auto;
-        flex-direction: column;
     }
 
     #contact{
@@ -132,11 +127,7 @@ img{
 }
 
 @media screen and (max-width: 670px) {
-    .profile{
-        flex-direction: column;
-    }
     .main{
-        padding: 5% 5%;
         margin-top: 100px;
     }
     img{
@@ -144,9 +135,7 @@ img{
         height: auto;
         margin: 0 auto;
     }
-    .prof_list{
-        flex-direction: column;
-    }
+
     #contact{
         width: 90%;
         padding-top: 10%;
