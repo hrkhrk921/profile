@@ -46,13 +46,13 @@ h2{
 }
 .prof_list{
     list-style: none;
-    width: 100%;
+    width: 50%;
 }
 .prof_list span{
     color: green;
 }
 .prof_img{
-    width: 100%;
+    width: 50%;
 }
 .list_name{
     font-size: 25px;
@@ -135,7 +135,16 @@ img{
         height: auto;
         margin: 0 auto;
     }
-
+    .prof_img{
+        width: 100%;
+    }
+    .prof_list{
+        width: 100%;
+    }
+    .container{
+        flex-direction: row;
+        flex-flow: row wrap;
+    }
     #contact{
         width: 90%;
         padding-top: 10%;
